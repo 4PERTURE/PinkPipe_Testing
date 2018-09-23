@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="app_name" translatable="false">NewPipe</string>
+    <string name="app_name" translatable="false">PinkPipe</string>
     <string name="main_bg_subtitle">Tap search to get started</string>
     <string name="view_count_text">%1$s views</string>
     <string name="upload_date_text">Published on %1$s</string>
@@ -23,7 +23,7 @@
     <string name="use_external_video_player_title">Use external video player</string>
     <string name="use_external_video_player_summary">Some resolutions will NOT have audio when this option is enabled</string>
     <string name="use_external_audio_player_title">Use external audio player</string>
-    <string name="popup_mode_share_menu_title">NewPipe popup mode</string>
+    <string name="popup_mode_share_menu_title">PinkPipe popup mode</string>
     <string name="rss_button_title" translatable="false">RSS</string>
     <string name="subscribe_button_title">Subscribe</string>
     <string name="subscribed_button_title">Subscribed</string>
@@ -53,7 +53,7 @@
     <string name="download_path_audio_dialog_title">Enter download path for audio files</string>
 
     <string name="autoplay_by_calling_app_title">Autoplay</string>
-    <string name="autoplay_by_calling_app_summary">Plays a video when NewPipe is called from another app</string>
+    <string name="autoplay_by_calling_app_summary">Plays a video when PinkPipe is called from another app</string>
     <string name="default_resolution_title">Default resolution</string>
     <string name="default_popup_resolution_title">Default popup resolution</string>
     <string name="show_higher_resolutions_title">Show higher resolutions</string>
@@ -145,9 +145,9 @@
     <string name="just_once">Just Once</string>
     <string name="file">File</string>
 
-    <string name="notification_channel_id" translatable="false">newpipe</string>
-    <string name="notification_channel_name">NewPipe Notification</string>
-    <string name="notification_channel_description">Notifications for NewPipe Background and Popup Players</string>
+    <string name="notification_channel_id" translatable="false">PinkPipe</string>
+    <string name="notification_channel_name">PinkPipe Notification</string>
+    <string name="notification_channel_description">Notifications for PinkPipe Background and Popup Players</string>
 
     <string name="unknown_content">[Unknown]</string>
 
@@ -286,7 +286,7 @@
     <string name="msg_server_unsupported">Server unsupported</string>
     <string name="msg_exists">File already exists</string>
     <string name="msg_url_malform">Malformed URL or Internet not available</string>
-    <string name="msg_running">NewPipe Downloading</string>
+    <string name="msg_running">PinkPipe Downloading</string>
     <string name="msg_running_detail">Tap for details</string>
     <string name="msg_wait">Please wait…</string>
     <string name="msg_copied">Copied to clipboard</string>
@@ -317,7 +317,7 @@
     <string name="toast_no_player">No app installed to play this file</string>
 
     <!-- About -->
-    <string name="title_activity_about">About NewPipe</string>
+    <string name="title_activity_about">About PinkPipe</string>
     <string name="action_settings">Settings</string>
     <string name="action_about">About</string>
     <string name="title_licenses">Third-party Licenses</string>
@@ -330,21 +330,21 @@
     <string name="app_description">Libre lightweight streaming on Android.</string>
     <string name="contribution_title">Contribute</string>
     <string name="contribution_encouragement">Whether you have ideas of; translation, design changes, code cleaning, or real heavy code changes—help is always welcome. The more is done the better it gets!</string>
-    <string name="github_url" translatable="false">https://github.com/TeamNewPipe/NewPipe</string>
+    <string name="github_url" translatable="false">https://github.com/4PERTURE/PinkPipe</string>
     <string name="view_on_github">View on GitHub</string>
     <string name="donation_title">Donate</string>
-    <string name="donation_encouragement">NewPipe is developed by volunteers spending time bringing you the best experience. Give back to help developers make NewPipe even better while enjoying a cup of coffee.</string>
-    <string name="donation_url" translatable="false">https://newpipe.schabi.org/donate</string>
+    <string name="donation_encouragement">This mod wouldn't be possible without the hard work of the NewPipe Team, consider giving them a donation, they deserve it.</string>
+    <string name="donation_url" translatable="false">https://PinkPipe.schabi.org/donate</string>
     <string name="give_back">Give back</string>
     <string name="website_title">Website</string>
     <string name="website_encouragement">Visit the NewPipe Website for more info and news.</string>
-    <string name="website_url" translatable="false">https://newpipe.schabi.org/</string>
-    <string name="privacy_policy_title">NewPipe\'s Privacy Policy</string>
+    <string name="website_url" translatable="false">https://PinkPipe.schabi.org/</string>
+    <string name="privacy_policy_title">PinkPipe\'s Privacy Policy</string>
     <string name="privacy_policy_encouragement">The NewPipe project takes your privacy very seriously. Therefore, the app does not collect any data without your consent.\nNewPipe\'s privacy policy explains in detail what data is sent and stored when you send a crash report.</string>
-    <string name="privacy_policy_url" translatable="false">https://newpipe.schabi.org/legal/privacy/</string>
+    <string name="privacy_policy_url" translatable="false">https://NewPipe.schabi.org/legal/privacy/</string>
     <string name="read_privacy_policy">Read privacy policy</string>
-    <string name="app_license_title">NewPipe\'s License</string>
-    <string name="app_license">NewPipe is copyleft libre software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</string>
+    <string name="app_license_title">PinkPipe\'s License</string>
+    <string name="app_license">PinkPipe is copyleft libre software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</string>
     <string name="read_full_license">Read license</string>
 
 
@@ -411,7 +411,7 @@
 
 
     <!-- Preferred player -->
-    <string name="preferred_open_action_share_menu_title" translatable="false">NewPipe</string>
+    <string name="preferred_open_action_share_menu_title" translatable="false">PinkPipe</string>
     <string name="preferred_open_action_settings_title">Preferred \'open\' action</string>
     <string name="preferred_open_action_settings_summary">Default action when opening content — %s</string>
 
@@ -491,7 +491,7 @@
     <string name="playback_reset">Reset</string>
 
     <!-- GDPR dialog -->
-    <string name="start_accept_privacy_policy">In order to comply with the European General Data Protection Regulation (GDPR), we herby draw your attention to NewPipe\'s privacy policy. Please read it carefully.\nYou must accept it to send us the bug report.</string>
+    <string name="start_accept_privacy_policy">In order to comply with the European General Data Protection Regulation (GDPR), we herby draw your attention to PinkPipe\'s privacy policy. Please read it carefully.\nYou must accept it to send us the bug report.</string>
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
 
