@@ -334,11 +334,11 @@
     <string name="view_on_github">View on GitHub</string>
     <string name="donation_title">Donate</string>
     <string name="donation_encouragement">This mod wouldn't be possible without the hard work of the NewPipe Team, consider giving them a donation, they deserve it.</string>
-    <string name="donation_url" translatable="false">https://PinkPipe.schabi.org/donate</string>
+    <string name="donation_url" translatable="false">https://NewPipe.schabi.org/donate</string>
     <string name="give_back">Give back</string>
     <string name="website_title">Website</string>
     <string name="website_encouragement">Visit the NewPipe Website for more info and news.</string>
-    <string name="website_url" translatable="false">https://PinkPipe.schabi.org/</string>
+    <string name="website_url" translatable="false">https://NewPipe.schabi.org/</string>
     <string name="privacy_policy_title">PinkPipe\'s Privacy Policy</string>
     <string name="privacy_policy_encouragement">The NewPipe project takes your privacy very seriously. Therefore, the app does not collect any data without your consent.\nNewPipe\'s privacy policy explains in detail what data is sent and stored when you send a crash report.</string>
     <string name="privacy_policy_url" translatable="false">https://NewPipe.schabi.org/legal/privacy/</string>
