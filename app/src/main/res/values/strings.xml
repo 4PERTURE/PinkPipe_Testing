@@ -330,7 +330,7 @@
     <string name="tab_licenses">Licenses</string>
     <string name="app_description">Libre lightweight streaming on Android.</string>
     <string name="contribution_title">Contribute</string>
-    <string name="contribution_encouragement">Whether you have ideas of; translation, design changes, code cleaning, or real heavy code changes—help is always welcome. The more is done the better it gets!</string>
+    <string name="contribution_encouragement">Do you have new ideas for this mod? Wanna help make it awesome-er? Check out our GitHub!</string>
     <string name="github_url" translatable="false">https://github.com/4PERTURE/PinkPipe</string>
     <string name="view_on_github">View on GitHub</string>
     <string name="donation_title">Donate</string>
@@ -338,10 +338,10 @@
     <string name="donation_url" translatable="false">https://NewPipe.schabi.org/donate</string>
     <string name="give_back">Give back</string>
     <string name="website_title">Website</string>
-    <string name="website_encouragement">Visit the NewPipe Website for more info and news.</string>
+    <string name="website_encouragement">Visit the NewPipe Website for Updates and News of the original client..</string>
     <string name="website_url" translatable="false">https://NewPipe.schabi.org/</string>
     <string name="privacy_policy_title">PinkPipe\'s Privacy Policy</string>
-    <string name="privacy_policy_encouragement">The NewPipe project takes your privacy very seriously. Therefore, the app does not collect any data without your consent.\nNewPipe\'s privacy policy explains in detail what data is sent and stored when you send a crash report.</string>
+    <string name="privacy_policy_encouragement">The PinkPipe project takes your privacy very seriously. Therefore, the app does not collect any data without your consent.\nPinkPipe\'s privacy policy explains in detail what data is sent and stored when you send a crash report.</string>
     <string name="privacy_policy_url" translatable="false">https://NewPipe.schabi.org/legal/privacy/</string>
     <string name="read_privacy_policy">Read privacy policy</string>
     <string name="app_license_title">PinkPipe\'s License</string>
