@@ -132,5 +132,20 @@
             android:layout_gravity="end"
             android:text="@string/read_privacy_policy" />
 
+android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/title_mod_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/title_mod_info"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mod_info" />
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
