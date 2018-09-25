@@ -49,14 +49,14 @@
 
     <color name="subscribe_background_color">#F500F7</color>
     <color name="subscribe_text_color">#fff</color>
-    <color name="subscribed_background_color">#d6d6d6</color>
+    <color name="subscribed_background_color">#F500F7</color>
     <color name="subscribed_text_color">#717171</color>
 
     <color name="transparent_background_color">#00000000</color>
     <color name="selected_background_color">#96717171</color>
 
     <!-- GigaGet theme -->
-    <color name="bluegray">#607D8B</color>
+    <color name="bluegray">#F500F7</color>
 
     <!-- GigaGet download Theme colors -->
     <color name="audio_left_to_load_color">#555555</color>
