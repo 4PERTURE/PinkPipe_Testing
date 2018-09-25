@@ -6,11 +6,11 @@
 
     <application
         android:name=".DebugApp"
-        android:label="PinkPipe Debug"
+        android:label="PinkPipe"
         tools:replace="android:name, android:label">
         <activity
             android:name=".MainActivity"
-            android:label="PinkPipe Debug"
+            android:label="PinkPipe"
             tools:replace="android:label"/>
     </application>
 
