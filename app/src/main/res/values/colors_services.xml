@@ -20,6 +20,6 @@
     <color name="dark_soundcloud_primary_color">#E50050</color>
     <color name="dark_soundcloud_dark_color">#995700</color>
     <color name="dark_soundcloud_accent_color">#FFFFFF</color>
-    <color name="dark_soundcloud_statusbar_color">#ff9100</color>
+    <color name="dark_soundcloud_statusbar_color">#E50050</color>
 
 </resources>
