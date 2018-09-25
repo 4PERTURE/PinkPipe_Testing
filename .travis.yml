@@ -38,7 +38,7 @@ before_install:
 
 - chmod +x gradlew
 
-script: ./gradlew assembleRelease
+script: ./gradlew assembleDebug
 
 install:
 
@@ -52,7 +52,7 @@ before_deploy:
 
 - chmod +x scripts/changelog.sh
 
-- cp app/build/outputs/apk/debug/*.apk PinkPipe-$TRAVIS_BUILD_NUMBER.apk
+- cp outputs/apk/debug/*.apk PinkPipe-$TRAVIS_BUILD_NUMBER.apk
 
 deploy:
 
