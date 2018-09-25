@@ -68,7 +68,7 @@
     <string name="default_video_format_title">Default video format</string>
     <string name="theme_title">Theme</string>
     <string name="light_theme_title">Light</string>
-    <string name="dark_theme_title">Dark</string>
+    <string name="dark_theme_title">Dark (Sapphire Blue)</string>
     <string name="black_theme_title">Black</string>
     <string name="popup_remember_size_pos_title">Remember popup size and position</string>
     <string name="popup_remember_size_pos_summary">Remember last size and position of popup</string>
@@ -338,7 +338,7 @@
     <string name="donation_url" translatable="false">https://NewPipe.schabi.org/donate</string>
     <string name="give_back">Give back</string>
     <string name="website_title">Website</string>
-    <string name="website_encouragement">Visit the NewPipe Website for Updates and News of the original client..</string>
+    <string name="website_encouragement">Visit the NewPipe Website for Updates and News of the original client.</string>
     <string name="website_url" translatable="false">https://NewPipe.schabi.org/</string>
     <string name="privacy_policy_title">PinkPipe\'s Privacy Policy</string>
     <string name="privacy_policy_encouragement">The PinkPipe project takes your privacy very seriously. Therefore, the app does not collect any data without your consent.\nPinkPipe\'s privacy policy explains in detail what data is sent and stored when you send a crash report.</string>
