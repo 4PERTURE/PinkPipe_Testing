@@ -2,10 +2,10 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="about_mod"
-    android:title="About the Mod">
+    android:title="@string/about_mod_title">
 
     <PreferenceScreen
         android:icon="?attr/download"
-        android:title="This is a test to check if I derped anythign or not"/>
+        android:title="@string/about_mod_test"/>
 
 </PreferenceScreen>
