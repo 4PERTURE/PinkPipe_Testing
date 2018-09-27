@@ -53,11 +53,18 @@ import org.schabi.newpipe.util.ThemeHelper;
 import org.schabi.newpipe.util.Constants;
 import android.support.annotation.Nullable;
 
+import org.schabi.newpipe.settings.BasePreferenceFragment;
+
 public class AboutMod extends BasePreferenceFragment {
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        super.onCreate(savedInstanceState);
+    //    super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.about_mod);
     }
  }
