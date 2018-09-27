@@ -1,4 +1,4 @@
-https://travis-ci.org/4PERTURE/PinkPipe.svg?branch=master
+[![Build Status](https://travis-ci.org/4PERTURE/PinkPipe.svg?branch=master)]
 
 PinkPipe.
 
