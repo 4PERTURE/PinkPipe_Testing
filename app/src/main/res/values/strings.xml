@@ -522,6 +522,6 @@
 
     <!-- About the Mod page -->
     <string name="about_mod_title">About the Mod</string>
-    <string name="about_mod_test">Page under construction.... Check in later, wouldga?</string>
+    <string name="about_mod_test">Page under construction.... Check in later...?</string>
 
 </resources>
