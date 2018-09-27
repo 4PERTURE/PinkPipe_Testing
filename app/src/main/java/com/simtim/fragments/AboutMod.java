@@ -26,10 +26,8 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 //import com.android.internal.logging.nano.MetricsProto; 
-import com.android.settings.SettingsPreferenceFragment;
+//import com.android.settings.SettingsPreferenceFragment;
 import org.schabi.newpipe.R;
-
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -52,11 +50,13 @@ import org.schabi.newpipe.BuildConfig;
 import org.schabi.newpipe.R;
 import org.schabi.newpipe.util.NavigationHelper;
 import org.schabi.newpipe.util.ThemeHelper;
+import org.schabi.newpipe.util.Constants;
+import android.support.annotation.Nullable;
 
-public class AboutMod extends AppCompatActivity {
+public class AboutMod extends BasePreferenceFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.about_mod);
     }
