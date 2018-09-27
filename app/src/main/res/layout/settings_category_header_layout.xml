@@ -7,8 +7,9 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="4dp"
-        android:background="?attr/contrast_background_color">
+        android:layout_height="8dp"
+        android:radius="12.0dip"
+        android:background="@drawable/custom_progress_bar">
 
       <!--  <View
             android:layout_width="match_parent"
