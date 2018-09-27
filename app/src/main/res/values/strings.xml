@@ -520,4 +520,8 @@
     <string name="minimize_on_exit_background_description">Minimize to background player</string>
     <string name="minimize_on_exit_popup_description">Minimize to popup player</string>
 
+    <!-- About the Mod page -->
+    <string name="about_mod_title">About the Mod</string>
+    <string name="about_mod_test">Page under construction.... Check in later, wouldga?</string>
+
 </resources>
