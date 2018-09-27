@@ -29,6 +29,12 @@
     <color name="dark_queue_background_color">#af000000</color>
     <color name="material_grey_900">#0f0020</color>
     <color name="material_grey_800">#0f0020</color>
+    <color name="material_grey_850">#0f0020</color>
+    <color name="material_grey_600">#0f0020</color>
+    <color name="material_grey_300">#0f0020</color>
+    <color name="material_grey_200">#0f0020</color>
+    <color name="material_grey_100">#0f0020</color>
+    <color name="material_grey_50">#0f0020</color>
 
     <!-- Black Theme -->
     <color name="black_background_color">#000000</color>
