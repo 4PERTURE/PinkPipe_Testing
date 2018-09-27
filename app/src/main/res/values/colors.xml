@@ -27,6 +27,8 @@
     <color name="dark_license_background_color">#424242</color>
     <color name="dark_license_text_color">#ffffff</color>
     <color name="dark_queue_background_color">#af000000</color>
+    <color name="material_grey_900">#0f0020</color>
+    <color name="material_grey_800">#0f0020</color>
 
     <!-- Black Theme -->
     <color name="black_background_color">#000000</color>
