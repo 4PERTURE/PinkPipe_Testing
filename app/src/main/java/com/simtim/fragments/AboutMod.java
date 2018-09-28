@@ -16,7 +16,6 @@
 package com.simtim.fragments;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
@@ -25,13 +24,10 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
-//import com.android.internal.logging.nano.MetricsProto; 
-//import com.android.settings.SettingsPreferenceFragment;
 import org.schabi.newpipe.R;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -66,5 +62,6 @@ public class AboutMod extends BasePreferenceFragment {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     //    super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.about_mod);
+        
     }
  }
