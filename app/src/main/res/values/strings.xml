@@ -69,7 +69,7 @@
     <string name="theme_title">Theme</string>
     <string name="light_theme_title">Retina Burner</string>
     <string name="dark_theme_title">Sapphire Blue</string>
-    <string name="black_theme_title">Pure Back</string>
+    <string name="black_theme_title">Pure Black</string>
     <string name="popup_remember_size_pos_title">Remember popup size and position</string>
     <string name="popup_remember_size_pos_summary">Remember last size and position of popup</string>
     <string name="use_inexact_seek_title">Use fast inexact seek</string>
