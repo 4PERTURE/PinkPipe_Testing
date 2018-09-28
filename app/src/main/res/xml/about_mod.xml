@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:key="about_mod"
-    android:title="@string/about_mod_title">
+<about>
+     <me.jfenn.attribouter.wedges.AppWedge repo="4PERTURE/PinkPipe">
+            <me.jfenn.attribouter.wedges.link.LinkWedge
+            name="^Git Repo"
+            id="github" />
+     </me.jfenn.attribouter.wedges.AppWedge>
 
-    <PreferenceScreen
-        android:icon="?attr/download"
-        android:title="@string/about_mod_test"/>
-
-</PreferenceScreen>
+     <me.jfenn.attribouter.wedges.ContributorsWedge>
+            <me.jfenn.attribouter.wedges.ContributorWedge
+            avatar="^@drawable/palette"
+            bio="The person doing stuff."
+            email="simrats169169@gmail.com"
+            login="simrat29"
+            position="1"
+            task="Owner">
+                  <me.jfenn.attribouter.wedges.link.LinkWedge
+                name="Telegram"
+                icon="http://www.iconarchive.com/download/i106433/papirus-team/papirus-apps/telegram.ico"
+                url="https://t.me/simratisbaka" />
+                   </me.jfenn.attribouter.wedges.ContributorWedge>
+            <me.jfenn.attribouter.wedges.ContributorWedge
+            login="4APERTURE"
+            position="2"
+            task="Owner"/>    
+</about>
