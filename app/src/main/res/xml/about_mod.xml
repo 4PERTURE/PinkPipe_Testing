@@ -19,8 +19,4 @@
                 icon="http://www.iconarchive.com/download/i106433/papirus-team/papirus-apps/telegram.ico"
                 url="https://t.me/simratisbaka" />
                    </me.jfenn.attribouter.wedges.ContributorWedge>
-            <me.jfenn.attribouter.wedges.ContributorWedge
-            login="4APERTURE"
-            position="2"
-            task="Owner"/>    
-</about>
+          </about>
