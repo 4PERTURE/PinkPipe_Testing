@@ -64,6 +64,9 @@
         <item name="colorControlHighlight">@color/light_ripple_color</item>
 
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        
+        <item name="android:navigationBarColor">#E50050</item>
+        <item name="android:statusBarColor">#E50050</item>
     </style>
 
     <style name="LightTheme.Switchable">
@@ -124,6 +127,9 @@
         <item name="colorControlHighlight">@color/dark_ripple_color</item>
 
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        
+        <item name="android:navigationBarColor">#E50050</item>
+        <item name="android:statusBarColor">#E50050</item>
     </style>
 
     <style name="DarkTheme.Switchable">
@@ -136,6 +142,9 @@
 
         <item name="separator_color">@color/black_separator_color</item>
         <item name="contrast_background_color">@color/black_contrast_background_color</item>
+        
+        <item name="android:navigationBarColor">#E50050</item>
+        <item name="android:statusBarColor">#E50050</item>
     </style>
 
     <style name="BlackTheme.Switchable">

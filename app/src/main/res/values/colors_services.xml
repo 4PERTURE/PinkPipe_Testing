@@ -3,23 +3,23 @@
     <!-- YouTube -->
     <color name="light_youtube_primary_color">#E50050</color>
     <color name="light_youtube_dark_color">#E50050</color>
-    <color name="light_youtube_accent_color">#000000</color>
+    <color name="light_youtube_accent_color">#E50050</color>
     <color name="light_youtube_statusbar_color">#E50050</color>
 
     <color name="dark_youtube_primary_color">#E50050</color>
     <color name="dark_youtube_dark_color">#E50050</color>
-    <color name="dark_youtube_accent_color">#FFFFFF</color>
+    <color name="dark_youtube_accent_color">#E50050</color>
     <color name="dark_youtube_statusbar_color">#E50050</color>
 
     <!-- SoundCloud -->
     <color name="light_soundcloud_primary_color">#E50050</color>
     <color name="light_soundcloud_dark_color">#E50050</color>
-    <color name="light_soundcloud_accent_color">#000000</color>
+    <color name="light_soundcloud_accent_color">#E50050</color>
     <color name="light_soundcloud_statusbar_color">#E50050</color>
 
     <color name="dark_soundcloud_primary_color">#E50050</color>
-    <color name="dark_soundcloud_dark_color">#995700</color>
-    <color name="dark_soundcloud_accent_color">#FFFFFF</color>
+    <color name="dark_soundcloud_dark_color">#E50050</color>
+    <color name="dark_soundcloud_accent_color">#E50050</color>
     <color name="dark_soundcloud_statusbar_color">#E50050</color>
 
 </resources>
