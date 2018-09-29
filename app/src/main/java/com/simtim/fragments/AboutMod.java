@@ -32,6 +32,8 @@ import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.widget.Toolbar;
 
+import org.schabi.newpipe.settings.SettingsActivity;
+
 import me.jfenn.attribouter.Attribouter;
 
 public class AboutMod extends AppCompatActivity implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
@@ -43,6 +45,7 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
 
      public void onCreatePreferences(Bundle bundle, String s) {  
          addPreferencesFromResource(getContent());
+
     }
        @Override
         public boolean onPreferenceTreeClick(Preference preference) {
@@ -50,6 +53,7 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
                 return true;
                 return super.onPreferenceTreeClick(preference);
         }
+
      @Override
     public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
         Fragment fragment;
