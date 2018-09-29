@@ -29,13 +29,11 @@ import me.jfenn.attribouter.Attribouter;
 public class AboutMod extends AppCompatActivity {
 
         @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         Attribouter.from(this)
                 .withFile(R.xml.about_mod)
                 .show();
-
-        finish();
     }
 }
