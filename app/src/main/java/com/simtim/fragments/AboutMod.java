@@ -59,4 +59,5 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
         Fragment fragment;
         fragment = Attribouter.from(this).withFile(R.xml.about_mod).toFragment(); 
         return false;
+   }
 }
