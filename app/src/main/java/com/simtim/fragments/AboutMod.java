@@ -23,6 +23,8 @@ import org.schabi.newpipe.settings.BasePreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import me.jfenn.attribouter.Attribouter;
 
@@ -33,7 +35,7 @@ public class AboutMod extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
          @Override
-    public boolean onOptionsItemSelected(item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
                  Attribouter.from(this)
                     .withFile(R.xml.about_mod)
                     .show();
