@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <about>
-    <appInfo
-        icon="@mipmap-xxxhdpi/ic_launcher"
-        playStoreUrl="https://play.google.com/store/apps/details?id=there.is.none"
-        repo="4PERTURE/PinkPipe"
-        websiteUrl="https://del.dog/awidotegir">
-    </appInfo>
-    <contributors
-        repo=""
-        showDefaults="false"
-        title="@string/about_our_team">
-        <contributor
-            name="4PERTURE"
-            avatar="https://avatars.githubusercontent.com/u/38117317"
-            bio="@string/about_bio_aperture"
-            login="4PERTURE"
-            position="2"
-            task="@string/about_role_lead">
-        </contributor>
-        <!-- adding empty stub entry to enable large icons  -->
-        <contributor
-            name=""
-            avatar=""
-            bio=""
-            login=""
+     <me.jfenn.attribouter.wedges.AppWedge repo="4PERTURE/PinkPipe">
+            <me.jfenn.attribouter.wedges.link.LinkWedge
+            name="^Git Repo"
+            id="github" />
+     </me.jfenn.attribouter.wedges.AppWedge>
+
+     <me.jfenn.attribouter.wedges.ContributorsWedge>
+            <me.jfenn.attribouter.wedges.ContributorWedge
+            avatar="^@drawable/palette"
+            bio="rat"
+            email="simrats169169@gmail.com"
+            login="simrat29"
             position="1"
-            task="">
-        </contributor>
-        <contributor
-            name="simtim"
-            avatar="https://avatars3.githubusercontent.com/u/37233846"
-            bio="@string/about_bio_rat"
-            login="simrat39"
-            position="3"
-            task="@string/about_role_rat">
-        </contributor>
-    </contributors>
-    <licenses>
-        <project repo="LawnchairLauncher/Lawnchair" />
-        <project repo="KwabenBerko/OpenWeatherMap-Android-Library" />
-        <project
-            license="apache-2.0"
-            repo="MrBIMC/VintageChroma" />
-        <project repo="florent37/FiftyShadesOf" />
-        <project
-            repo="fangyidong/json-simple"
-            title="JSON.simple" />
-    </licenses>
-</about>
+            task="contributor">
+                  <me.jfenn.attribouter.wedges.link.LinkWedge
+                name="Telegram"
+                icon="http://www.iconarchive.com/download/i106433/papirus-team/papirus-apps/telegram.ico"
+                url="https://t.me/simratisbaka" />
+                   </me.jfenn.attribouter.wedges.ContributorWedge>
+     </me.jfenn.attribouter.wedges.ContributorsWedge>
+          </about>
