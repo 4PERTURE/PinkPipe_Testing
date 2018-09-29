@@ -524,4 +524,9 @@
     <string name="about_mod_title">About the Mod</string>
     <string name="about_mod_test">Page under construction.... Check in later...?</string>
 
+    <!-- Attribouter -->
+    <string name="about_bio_aperture">memes</string>
+    <string name="about_role_lead">pepe the frog</string>
+    <string name="about_bio_rat">kekes</string>
+    <string name="about_role_rat">whats 9 plas 10</string>
 </resources>
