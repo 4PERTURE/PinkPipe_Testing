@@ -83,7 +83,7 @@ public class SettingsActivity extends AppCompatActivity implements BasePreferenc
 
     @Override
     public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
-       // Fragment fragment = Fragment.instantiate(this, preference.getFragment(), preference.getExtras());
+        Fragment fragment = Fragment.instantiate(this, preference.getFragment(), preference.getExtras());
         getSupportFragmentManager().beginTransaction()
                 .setCustomAnimations(R.animator.custom_fade_in, R.animator.custom_fade_out, R.animator.custom_fade_in, R.animator.custom_fade_out)
                 .replace(R.id.fragment_holder, fragment)
