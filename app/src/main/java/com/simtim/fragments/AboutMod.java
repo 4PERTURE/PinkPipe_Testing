@@ -29,10 +29,9 @@ public class AboutMod extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
-     
-    @Override
+
      public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {  
-                Attribouter.from(context)
+                Attribouter.from(this)
                 .withFile(R.xml.about_mod)
                 .show();
     }
