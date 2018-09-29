@@ -22,8 +22,8 @@ import org.schabi.newpipe.settings.BasePreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 
 import android.support.v4.app.ActivityCompat;
-import android.support.app.Fragment;
-import android.support.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.preference.ListPreference;
