@@ -9,7 +9,8 @@
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or 
+implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
@@ -20,35 +21,21 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import org.schabi.newpipe.settings.BasePreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
-
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceFragmentCompat;
-import android.support.v7.widget.Toolbar;
-
-import org.schabi.newpipe.settings.SettingsActivity;
 
 import me.jfenn.attribouter.Attribouter;
 
-public class AboutMod extends Fragment implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
+public class AboutMod extends Fragment {
 
-   @Override
-    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
-        Fragment fragment = Attribouter.from(this).toFragment();
-        return false;   
-     }
-   
+        @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Attribouter.from(this)
                 .withFile(R.xml.about_mod)
                 .show();
-       }
-    }
 
+        finish();
+    }
+}
