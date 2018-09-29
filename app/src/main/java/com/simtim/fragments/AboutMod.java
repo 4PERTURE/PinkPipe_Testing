@@ -36,15 +36,14 @@ import org.schabi.newpipe.settings.SettingsActivity;
 
 import me.jfenn.attribouter.Attribouter;
 
-public class AboutMod extends AppCompatActivity implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
+public class AboutMod extends Fragment implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
    @Override
     public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
         Fragment fragment = Attribouter.from(this).toFragment();
         return false;   
      }
-      
- private class AppCompatActivity extends Fragment implements BasePreferenceFragment {   
+   
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Attribouter.from(this)
@@ -52,4 +51,4 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
                 .show();
        }
     }
- }
+
