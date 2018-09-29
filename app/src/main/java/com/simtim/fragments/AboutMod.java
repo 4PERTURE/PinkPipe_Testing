@@ -28,11 +28,12 @@ public class AboutMod extends AppCompatActivity {
         @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+       }
 
+      @Override
+    public void onClick {
         Attribouter.from(this)
                 .withFile(R.xml.about_mod)
                 .show();
-
-        finish();
     }
  }
