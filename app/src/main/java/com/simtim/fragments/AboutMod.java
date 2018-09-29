@@ -38,17 +38,19 @@ import me.jfenn.attribouter.Attribouter;
 
 public class AboutMod extends AppCompatActivity implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
+   @Override
+    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
+        Fragment fragment = Attribouter.from(this).toFragment();
+        return false;   
+     }
+    
+public class AboutMod extends Fragment {    
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Attribouter.from(this)
                 .withFile(R.xml.about_mod)
                 .show();
+       }
     }
-      
-    @Override
-    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
-        Fragment fragment = Attribouter.from(this).toFragment();
-        return false;   
-     }
-}
+ }
