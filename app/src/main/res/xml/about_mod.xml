@@ -9,11 +9,11 @@
      <me.jfenn.attribouter.wedges.ContributorsWedge>
             <me.jfenn.attribouter.wedges.ContributorWedge
             avatar="^@drawable/palette"
-            bio="The person doing stuff."
+            bio="rat"
             email="simrats169169@gmail.com"
             login="simrat29"
             position="1"
-            task="Owner">
+            task="contributor">
                   <me.jfenn.attribouter.wedges.link.LinkWedge
                 name="Telegram"
                 icon="http://www.iconarchive.com/download/i106433/papirus-team/papirus-apps/telegram.ico"
