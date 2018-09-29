@@ -43,8 +43,8 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
         Fragment fragment = Attribouter.from(this).toFragment();
         return false;   
      }
-    
-public class AboutMod extends Fragment {    
+      
+        private class AboutMod extends Fragment {    
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
