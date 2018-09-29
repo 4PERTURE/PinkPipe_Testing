@@ -15,9 +15,12 @@
  */
 package com.simtim.fragments;
 
+import org.schabi.newpipe.R;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.annotation.Nullable;
+import org.schabi.newpipe.settings.BasePreferenceFragment;
+import android.support.v7.app.AppCompatActivity;
+
 import me.jfenn.attribouter.Attribouter;
 
 public class AboutMod extends AppCompatActivity {
