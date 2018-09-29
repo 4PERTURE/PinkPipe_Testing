@@ -33,7 +33,7 @@ public class AboutMod extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
          @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(item) {
                  Attribouter.from(this)
                     .withFile(R.xml.about_mod)
                     .show();
