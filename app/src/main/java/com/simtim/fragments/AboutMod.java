@@ -47,9 +47,8 @@ public class AboutMod extends AppCompatActivity implements PreferenceFragmentCom
     }
       
     @Override
-    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
-        Fragment fragment;
-        fragment = Attribouter.from(this).withFile(R.xml.about_mod).toFragment(); 
+    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference preference) {
+        Fragment fragment = Attribouter.from(this).toFragment();
         return false;   
      }
 }
