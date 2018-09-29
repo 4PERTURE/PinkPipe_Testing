@@ -26,7 +26,7 @@ import android.support.v4.app.FragmentTransaction;
 
 import me.jfenn.attribouter.Attribouter;
 
-public class AboutMod extends Fragment {
+public class AboutMod extends AppCompatActivity {
 
         @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
