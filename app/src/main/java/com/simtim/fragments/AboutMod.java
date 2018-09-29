@@ -31,9 +31,12 @@ public class AboutMod extends AppCompatActivity {
         @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        Attribouter.from(this)
-                .withFile(R.xml.about_mod)
-                .show();
+    }
+         @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+                 Attribouter.from(this)
+                    .withFile(R.xml.attribouter)
+                    .show();
+        return super.onOptionsItemSelected(item);
     }
 }
