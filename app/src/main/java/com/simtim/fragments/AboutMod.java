@@ -9,7 +9,7 @@
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
 implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
@@ -19,26 +19,42 @@ package com.simtim.fragments;
 import org.schabi.newpipe.R;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import org.schabi.newpipe.settings.BasePreferenceFragment;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import me.jfenn.attribouter.Attribouter;
 
-public class AboutMod extends AppCompatActivity {
+import static me.jfenn.attribouter.Attribouter.*;
 
-        @Override
-    protected void onCreate(Bundle savedInstanceState) {
+public class AboutMod extends Fragment {
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        final Attribouter attribouter;
+        attribouter = from(getActivity());
+        Attribouter.from(getActivity()).withFile(Integer.parseInt(String.valueOf((R.xml.about_mod))));
+        Attribouter.from(getActivity()).show();
     }
-         @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-                 Attribouter.from(this)
-                    .withFile(R.xml.about_mod)
-                    .show();
-        return super.onOptionsItemSelected(item);
-    }
+
+    /**@Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+    final Attribouter attribouter;
+    attribouter = from(getActivity());
+    from(getActivity()).withFile(R.xml.about_mod);
+    from(getActivity()).show();
+
+    }**/
+
+
+    /** @Override
+    protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    Attribouter.from(this)
+    .withFile(R.xml.about_mod)
+    .show();
+    }**/
 }
