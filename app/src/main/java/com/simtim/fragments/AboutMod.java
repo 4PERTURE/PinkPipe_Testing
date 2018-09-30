@@ -28,7 +28,7 @@ import android.view.MenuItem;
 
 import me.jfenn.attribouter.Attribouter;
 
-public class AboutMod extends AppCompatActivity {
+public class AboutMod extends Fragment {
 
         @Override
     protected void onCreate(Bundle savedInstanceState) {
