@@ -33,7 +33,7 @@ public class AboutMod extends Fragment {
 
         final Attribouter attribouter;
         attribouter = from(getActivity());
-        Attribouter.from(getActivity()).withFile(Integer.parseInt(String.valueOf((R.xml.about_mod))));
+        Attribouter.from(getActivity()).withFile(R.xml.about_mod);
         Attribouter.from(getActivity()).show();
     }
 
