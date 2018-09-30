@@ -4,6 +4,16 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
+signingConfigs {
+        travis {
+            storeFile file("pp.jks")
+            storePassword System.getenv("storepass")
+            keyAlias "PinkPipe"
+            keyPassword System.getenv("keypass")
+ 
+        }
+    }
+
     defaultConfig {
         applicationId "org.schabi.newpipe"
         minSdkVersion 15
@@ -102,14 +112,3 @@ dependencies {
 
     implementation 'me.jfenn:attribouter:0.1.2'
 }
-
-
-signingConfigs {
-        travis {
-            storeFile file("pp.jks")
-            storePassword System.getenv("storepass")
-            keyAlias "PinkPipe"
-            keyPassword System.getenv("keypass")
- 
-        }
-    }
