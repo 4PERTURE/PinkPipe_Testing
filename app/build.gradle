@@ -102,3 +102,14 @@ dependencies {
 
     implementation 'me.jfenn:attribouter:0.1.2'
 }
+
+
+signingConfigs {
+        travis {
+            storeFile file("pp.jks")
+            storePassword System.getenv("storepass")
+            keyAlias "PinkPipe"
+            keyPassword System.getenv("keypass")
+ 
+        }
+    }
