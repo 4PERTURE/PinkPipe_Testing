@@ -15,7 +15,7 @@ signingConfigs {
     }
 
     defaultConfig {
-        applicationId "org.schabi.newpipe"
+        applicationId "sos.apeture.pinkpipe"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 68
