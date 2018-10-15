@@ -24,6 +24,7 @@ import android.view.Surface;
 import android.preference.Preference;
 import org.schabi.newpipe.R;
 import org.schabi.newpipe.settings.BasePreferenceFragment;
+import android.support.annotation.Nullable;
 
 public class AboutMod extends BasePreferenceFragment {
 
