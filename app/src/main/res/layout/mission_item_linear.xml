@@ -19,15 +19,10 @@
 			android:gravity="center"
 			android:padding="15dp"
             android:contentDescription="TODO" />
-<<<<<<< HEAD
 		
-		<LinearLayout
-			android:id="@+id/item_name_and_size"
-=======
 
 		<TextView
 			android:id="@+id/item_name"
->>>>>>> fba0a8036bdfe046d2e10d3aa7011fc08592cb25
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_toLeftOf="@+id/item_more"
@@ -39,20 +34,6 @@
 			android:textSize="16sp"
 			android:textStyle="bold" />
 
-<<<<<<< HEAD
-			<TextView
-				android:id="@+id/item_size"
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-                android:padding="6dp"
-				android:singleLine="true"
-				android:text="100.00MB"
-				android:textSize="12sp"
-				android:textColor="@color/white"/>
-		
-		</LinearLayout>
-		
-=======
 		<TextView
 			android:id="@+id/item_size"
 			android:layout_width="wrap_content"
@@ -64,7 +45,6 @@
 			android:text="100.00MB"
 			android:textSize="12sp"
 			android:textColor="@color/white"/>
->>>>>>> fba0a8036bdfe046d2e10d3aa7011fc08592cb25
 
 		<TextView
 			android:id="@+id/item_status"
