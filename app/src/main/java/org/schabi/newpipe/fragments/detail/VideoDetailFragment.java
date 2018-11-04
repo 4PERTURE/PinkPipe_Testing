@@ -743,11 +743,7 @@ public class VideoDetailFragment
             }
             //if (DEBUG) Log.d(TAG, "Total time " + ((System.nanoTime() - first) / 1000000L) + "ms");
 
-<<<<<<< HEAD
-            setRelatedStreamsVisibility(View.VISIBLE);
-=======
             showRelatedStreamsIfSelected();
->>>>>>> 08127e58... added basic/crappy comments support
             relatedStreamExpandButton.setVisibility(View.VISIBLE);
 
             relatedStreamExpandButton.setImageDrawable(ContextCompat.getDrawable(
