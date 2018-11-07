@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="about_mod"
+    android:title="@string/about_mod_title">
+
+    <PreferenceScreen
+        android:icon="?attr/download"
+        android:title="@string/about_mod_test"/>
+
+</PreferenceScreen>
