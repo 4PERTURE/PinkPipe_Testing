@@ -33,7 +33,7 @@ install:
   
 before_deploy:
   - chmod +x scripts/changelog.sh
-  - cp app/build/outputs/apk/debug/*.apk PinkPipe-$TRAVIS_BUILD_NUMBER.apk
+  - cp app/build/outputs/apk/debug/*.apk PinkPipe-TEST-$TRAVIS_BUILD_NUMBER.apk
 
 deploy:
   - provider: script
