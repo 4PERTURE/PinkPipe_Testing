@@ -19,7 +19,7 @@ android:
 # whitelist
 branches:
   only:
-    - master
+    - dev
 
 before_install:
   - chmod +x gradlew
